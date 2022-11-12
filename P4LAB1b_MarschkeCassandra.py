@@ -1,0 +1,21 @@
+import turtle          
+wn = turtle.Screen()  
+f = turtle.Turtle()
+
+f.pencolor("red")
+f.pensize(10)
+f.circle(-80, -190)
+f.left(70)
+f.penup()
+f.backward(150)
+f.right(150)
+f.pendown()
+f.forward(120)
+f.left(45)
+f.backward(80)
+f.right(85)
+f.forward(80)
+f.left(45)
+f.backward(120)
+
+wn.mainloop()             
